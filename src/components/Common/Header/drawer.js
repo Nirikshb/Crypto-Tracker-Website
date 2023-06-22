@@ -23,6 +23,9 @@ const [open,setOpen]=useState(false)
             <p className="link">Compare</p>
           </Link>
 
+          {/* <Link to="/WahtchList">
+          <p className="link">WahtchList</p>
+        </Link> */}
           <Link to="/DashBoard">
             <p className="link">DashBoard</p>
           </Link>

@@ -19,10 +19,13 @@ function Header() {
           <p className="link">Compare</p>
         </Link>
 
+        {/* <Link to="/WahtchList">
+          <p className="link">WahtchList</p>
+        </Link> */}
         <Link to="/Dashboard">
           <Button
             text={"Dashboard"}
-          
+            // outlined={true}
             onClick={() => console.log("btncliked")}
           />
         </Link>
