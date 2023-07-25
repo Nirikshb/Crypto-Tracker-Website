@@ -16,6 +16,7 @@ function App() {
           <Route path="/Dashboard" element={<DashboardPage />} />
           <Route path="/Coins/:id" element={<CoinsPage />} />
           <Route path="/Compare" element={<Compare />} />
+        
         </Routes>
       </BrowserRouter>
     </div>
