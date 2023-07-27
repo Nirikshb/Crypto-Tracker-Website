@@ -1,7 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Add this import
+
 import './style.css';
-import Button from '../../Common/Button';
 import iphone from "../../../assets/iphone.png";
 import gradient from '../../../assets/gradient.png';
 import {motion} from 'framer-motion';
@@ -9,6 +8,7 @@ import {motion} from 'framer-motion';
 function MainComponents() {
   return (
     <div className="flex-info">
+    
       <div className="left-container">
         <h1 className="track-crypto-heading">Track Crypto</h1>
         <h1 className="real-time-heading">Real Time.</h1>
@@ -16,8 +16,8 @@ function MainComponents() {
           Track crypto through a public api in real time. Visit the dashboard to
           do so!
         </p>
-       
-      </div>
+        </div>
+    
       <div className="phone-container">
         <motion.img src={iphone} className="iphone"
           initial={{y:-10}}
@@ -29,8 +29,11 @@ function MainComponents() {
             repeat:Infinity    
           }}
         />
+    
         <img src={gradient} className="gradient" />
+    
       </div>
+    
     </div>
   );
 }
